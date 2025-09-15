@@ -39,20 +39,10 @@
             text-align: center;
             margin-bottom: 40px;
         }
-        .link-button {
-            display: inline-block;
-            padding: 10px 20px;
-            margin: 0 10px;
-            background-color: #eaf2f8; 
-            color: #2c3e50; 
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
-            transition: background-color 0.3s;
-            border: 1px solid #d5e6f3; 
-        }
-        .link-button:hover {
-            background-color: #d5e6f3; 
+        .links a {
+            margin: 0 5px; /* Add some space between badges */
+            text-decoration: none; /* This line removes the underline */
+            vertical-align: middle; /* Ensures badges align perfectly */
         }
         figcaption {
             text-align: center;
@@ -78,12 +68,22 @@
         </p>
     </div>
 
+    <!-- === MODIFIED LINKS SECTION === -->
     <div class="links">
-        <a href="https://arxiv.org/abs/2509.10260" class="link-button">arXiv</a>
-        <a href="https://huggingface.co/datasets/wj-inf/MagicData340k" class="link-button">Dataset</a>
-        <a href="https://huggingface.co/wj-inf/MagicAssessor-7B" class="link-button">Model</a>
-        <a href="https://github.com/wj-inf/MagicMirror" class="link-button">Benchmark</a>
+        <a href="https://arxiv.org/abs/2509.10260">
+            <img src="https://img.shields.io/badge/arXiv-2509.10260-b31b1b.svg" alt="arXiv">
+        </a>
+        <a href="https://huggingface.co/datasets/wj-inf/MagicData340k">
+            <img src="https://img.shields.io/badge/🤗%20Huggingface-Dataset-yellow" alt="Dataset on Hugging Face">
+        </a>
+        <a href="https://huggingface.co/wj-inf/MagicAssessor-7B">
+            <img src="https://img.shields.io/badge/🤗%20Huggingface-Model-blue" alt="Model on Hugging Face">
+        </a>
+        <a href="https://github.com/wj-inf/MagicMirror">
+            <img src="https://img.shields.io/badge/GitHub-Repo-181717?logo=github" alt="GitHub Repository">
+        </a>
     </div>
+    <!-- === END OF MODIFIED SECTION === -->
 
     <div class="abstract">
         <h2>Abstract</h2>
